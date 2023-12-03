@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px ;
+    border-radius: 10px;
+    border: none;
+}
+
+
+h1, h2 {
+    font-family: monospace;
+}
+
+hr {
+    margin: 20px;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
